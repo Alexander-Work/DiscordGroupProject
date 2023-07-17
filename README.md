@@ -12,5 +12,5 @@
 - Option for the bot to join the server and play music
 
 LINKS
-https://www.youtube.com/watch?v=8k-zyUyuvlM
-https://www.npmjs.com/package/discord.js
+- https://www.youtube.com/watch?v=8k-zyUyuvlM
+- https://www.npmjs.com/package/discord.js
