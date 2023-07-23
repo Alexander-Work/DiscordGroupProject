@@ -14,3 +14,5 @@
 LINKS
 - https://www.youtube.com/playlist?list=PLRqwX-V7Uu6avBYxeBSwF48YhAnSn_sA4
 - https://www.npmjs.com/package/discord.js
+- https://www.youtube.com/playlist?list=PLRqwX-V7Uu6avBYxeBSwF48YhAnSn_sA4
+- https://discordjs.guide/#before-you-begin
