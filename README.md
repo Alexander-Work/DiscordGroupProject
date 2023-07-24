@@ -14,10 +14,10 @@ LINKS
 - https://discordjs.guide/#before-you-begin
 
 Teaching:
-Commands - Md Shariful Islam Gaddafi
-Index. - fabrizio
-Deploy.js - Wing Yan Yeung
-Setting up the bot in discord + initial program set up - Alex
+- Commands - Md Shariful Islam Gaddafi
+- Index. - fabrizio
+- Deploy.js - Wing Yan Yeung
+- Setting up the bot in discord + initial program set up - Alex
 
 Coding to add:
 - choices: fabrizio
