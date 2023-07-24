@@ -22,5 +22,5 @@ Teaching:
 Coding to add:
 - choices: fabrizio
 - start: Alex
-- validation: Wing Yan Yeung
+- permissions: Wing Yan Yeung
 
