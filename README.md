@@ -15,8 +15,8 @@ LINKS
 
 Teaching:
 - Commands - Md Shariful Islam Gaddafi
-- Index. - fabrizio
-- Deploy.js - Wing Yan Yeung
+- Index.js - fabrizio
+- Deploy-commands.js - Wing Yan Yeung
 - Setting up the bot in discord + initial program set up - Alex
 
 Coding to add:
