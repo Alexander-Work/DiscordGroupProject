@@ -32,4 +32,5 @@ function formatLocalizedTime(locale) {
       await interaction.reply(`The localized time is: ${localizedTime}`);
     },
   };
+  ///////////
   
