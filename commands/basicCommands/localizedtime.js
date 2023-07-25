@@ -1,3 +1,4 @@
+const { SlashCommandBuilder } = require('discord.js');
 // localizedtime.js
 
 // Function to format the time based on the user's locale
