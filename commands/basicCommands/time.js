@@ -1,3 +1,5 @@
+const { SlashCommandBuilder } = require('discord.js');
+
 module.exports = {
     data: {
       name: 'time', // The name of the command (used for calling it)
