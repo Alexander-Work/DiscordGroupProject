@@ -8,14 +8,17 @@ const commands = [];
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
 
+// Loop through each command folder
 for (const folder of commandFolders) {
   const commandsPath = path.join(foldersPath, folder);
   const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
+  // Loop through each command file in the folder
   for (const file of commandFiles) {
     const filePath = path.join(commandsPath, file);
     const command = require(filePath);
 
+    // Check if the command has both 'data' and 'execute' properties
     if ('data' in command && 'execute' in command) {
       commands.push(command.data); // Directly push the command data object
       console.log(command.data);
@@ -28,7 +31,7 @@ for (const folder of commandFolders) {
 // Construct and prepare an instance of the REST module
 const rest = new REST({ version: '10' }).setToken(token);
 
-// and deploy your commands!
+// Deploy your commands!
 (async () => {
   try {
     console.log(`Started refreshing ${commands.length} application (/) commands.`);
@@ -41,7 +44,7 @@ const rest = new REST({ version: '10' }).setToken(token);
 
     console.log(`Successfully reloaded ${data.length} application (/) commands.`);
   } catch (error) {
-    // And of course, make sure you catch and log any errors!
+    // If there's an error, log it
     console.error(error);
   }
 })();
