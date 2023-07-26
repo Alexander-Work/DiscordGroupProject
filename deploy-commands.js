@@ -38,7 +38,7 @@ const rest = new REST({ version: '10' }).setToken(token);
 
     // The put method is used to fully refresh all commands
     const data = await rest.put(
-      `/applications/${clientId}/guilds/1130296090114134119/commands`, // Replace '1130300934740791336' with your actual numeric guild ID
+      `/applications/${clientId}/guilds/1130296090114134119/commands`, //  actual numeric guild ID
       { body: commands },
     );
 
