@@ -1,4 +1,3 @@
-// localizedtime.js (or any other command file)
 
 // Function to format the time based on the user's locale
 function formatLocalizedTime(locale) {
@@ -20,7 +19,7 @@ function formatLocalizedTime(locale) {
 module.exports = {
   data: {
     name: 'localizedtime', // The name of the command (used for calling it)
-    description: 'Get the localized time.', // Description of the command (optional)
+    description: 'Get the localized time.', // Description of the command 
   },
   async execute(interaction) {
     // Get the user's preferred locale from the interaction data or use a default value
